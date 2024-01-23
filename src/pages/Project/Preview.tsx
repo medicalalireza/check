@@ -15,7 +15,7 @@ const Preview = () => {
             <del className="offer">1,000,000 تومان</del>{" "}
             <strong className="free">رایگان</strong>
           </div>
-          <Link to="../check/project/podcast">ورود به بازی</Link>
+          <Link to="../check/project/podcast/week/1">ورود به بازی</Link>
         </div>
         <div className="marshal">
           <img className="himymTitle" src={Marshal} />
@@ -24,5 +24,4 @@ const Preview = () => {
     </div>
   );
 };
-
 export default Preview;

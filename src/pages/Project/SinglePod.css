@@ -1,0 +1,24 @@
+.episodes {
+  margin-top: 90px;
+}
+.trick {
+  padding: 15px;
+}
+.hero {
+  background-color: rgb(24, 24, 24);
+}
+.suprise {
+  background-repeat: no-repeat;
+}
+.voice {
+  border-radius: 12px;
+  background-color: brown;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  padding: 15px;
+  margin: 14px;
+}
+.voice:hover {
+  background-color: #e20505;
+}
