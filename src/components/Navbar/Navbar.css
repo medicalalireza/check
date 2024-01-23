@@ -10,10 +10,10 @@ body {
   font-family: "Dirooz";
   font-size: medium;
   margin: 0;
+  overflow-x: hidden; /* اضافه کردن overflow-x برای غیرفعال کردن اسکرول افقی */
 }
 
 .navbar {
-  margin-top: 2px;
   background-color: #3a2a1a;
   border-radius: 8px;
   position: fixed;
@@ -40,7 +40,7 @@ body {
 .list-item > a {
   color: white;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1rem;
   margin-top: 8px;
   display: flex;
   justify-content: flex-end;
@@ -52,7 +52,7 @@ body {
 }
 
 .container {
-  margin-top: 50px !important; /* فاصله بین ناوبار و تصویر */
+  margin-top: 50px; /* فاصله بین ناوبار و تصویر */
 }
 
 .himymTitle {
@@ -62,7 +62,7 @@ body {
 }
 
 /* تنظیمات ریسپانسیو برای گوشی‌ها */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .viewMobile {
     flex-direction: row; /* تغییر جهت به صورت افقی */
     justify-content: flex-start; /* چیدمان اولیه لینک‌ها در ابتدای صفحه */
@@ -73,7 +73,7 @@ body {
   }
 
   .list-item > a {
-    font-size: 0.9rem;
+    font-size: 50%;
     margin-top: 6px;
   }
 
