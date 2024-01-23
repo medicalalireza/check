@@ -29,12 +29,14 @@
   color: green;
 }
 .price {
-  margin-bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .himymTitle {
   border-radius: 12px;
 }
 .ticket {
+  align-items: center;
   background-color: rgb(193, 150, 99);
   color: white;
   border-radius: 12px;
