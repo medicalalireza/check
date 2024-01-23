@@ -31,3 +31,12 @@
 .price {
   margin-bottom: 10px;
 }
+.himymTitle {
+  border-radius: 12px;
+}
+.ticket {
+  background-color: rgb(193, 150, 99);
+  color: white;
+  border-radius: 12px;
+  padding: 15px;
+}
