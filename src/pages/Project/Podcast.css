@@ -1,0 +1,33 @@
+.game {
+  background-image: url("../../images/4.jpg");
+  color: white;
+  border-radius: 18px;
+  border: 2px solid rgb(255, 255, 255);
+  padding: 45px;
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+}
+.ticket {
+  margin-top: 80px;
+}
+.opacity {
+  opacity: 60%;
+}
+.game > a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: black;
+  padding: 8px;
+  border-radius: 12px;
+}
+.offer {
+  color: rgb(255, 4, 4) !important;
+}
+.free {
+  color: green;
+}
+.price {
+  margin-bottom: 10px;
+}

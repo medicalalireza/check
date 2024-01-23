@@ -1,0 +1,83 @@
+/* Navbar.css */
+
+@font-face {
+  font-family: "Dirooz";
+  src: url("../../fonts/Dirooz-FD.woff");
+}
+
+body {
+  direction: rtl;
+  font-family: "Dirooz";
+  font-size: medium;
+  margin: 0;
+}
+
+.navbar {
+  margin-top: 2px;
+  background-color: #3a2a1a;
+  border-radius: 8px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.viewMobile {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  flex-direction: row; /* تغییر جهت به صورت افقی */
+}
+
+.list-item {
+  padding: 13px;
+}
+
+.list-item > a {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  margin-top: 8px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.list-item > a > svg {
+  margin-left: 8px;
+}
+
+.container {
+  margin-top: 50px !important; /* فاصله بین ناوبار و تصویر */
+}
+
+.himymTitle {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* تنظیمات ریسپانسیو برای گوشی‌ها */
+@media only screen and (max-width: 600px) {
+  .viewMobile {
+    flex-direction: row; /* تغییر جهت به صورت افقی */
+    justify-content: flex-start; /* چیدمان اولیه لینک‌ها در ابتدای صفحه */
+  }
+
+  .list-item {
+    padding: 10px;
+  }
+
+  .list-item > a {
+    font-size: 0.9em;
+    margin-top: 6px;
+  }
+
+  .container {
+    margin-top: 20px; /* تغییر فاصله بین ناوبار و تصویر برای گوشی‌ها */
+  }
+}
