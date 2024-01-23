@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import "./SinglePod.css";
 import suprise from "../../images/2.jpg";
 import sound from "./1.mp3";
-const weeks = [{ id: 1, count: "هفته اول", title: "آغاز جریان" }];
+const weeks = [{ id: 1, count: "هفته اول", title: "پیدایش ذره" }];
 
 const SinglePod = () => {
   const { id } = useParams();
