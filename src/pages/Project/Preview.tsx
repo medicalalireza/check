@@ -2,15 +2,11 @@ import React from "react";
 import "./Podcast.css";
 import { Link } from "react-router-dom";
 import Marshal from "../../images/3.jpg";
-import Lily from "../../images/4.jpg";
-import { FaDoorClosed } from "react-icons/fa6";
 const Preview = () => {
   return (
     <div>
       <div className="preparation">
-        <h2 className="ticket">
-          <FaDoorClosed /> بلیت ورودی
-        </h2>
+        <h2 className="ticket">بلیت ورودی</h2>
         <div className="game">
           <mark className="opacity">
             به علت ولادت امام علی ورودی <b> {}صلواتی</b> می باشد
