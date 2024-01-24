@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../../../components/Navbar/Navbar";
 import "./SingleMemory.css";
 import CameraMan1 from "../../../images/Week1/Camera-man-1.jpg";
-import CameraMan2 from "../../../images/Week1/Camera-man-2.jpg";
+import CameraMan2 from "../../../images//Week1/camera-man-2.jpg";
 import Agent from "../../../images/Week1/stood-man-waiting-for-the-victim.jpg";
 import Victim from "../../../images/Week1/victim-signing-the-box.jpg";
 const SingleMemory = () => {
