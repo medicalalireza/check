@@ -31,7 +31,7 @@ const SinglePod = () => {
               <button className="voice" onClick={() => play()}>
                 پخش صدای مرگ
               </button>
-              <button className="voice" onClick={() => play()}>
+              <button className="voice" onClick={() => secondPlay()}>
                 پخش معاقبه
               </button>
               <img className="suprise" src={suprise} alt="" />
