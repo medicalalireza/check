@@ -29,8 +29,8 @@ const SingleMemory = () => {
             <textarea
               name=""
               id=""
-              cols="20"
-              rows="4"
+              cols={20}
+              rows={4}
               value={weekCaption}
               disabled
             ></textarea>
