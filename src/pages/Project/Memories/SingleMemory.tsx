@@ -17,12 +17,10 @@ const SingleMemory = () => {
         <div className="inforweek">
           <div className="weekTitle">
             <h2>نام هفته</h2>
-
-            <mark>پیدایش ذره</mark>
+            پیدایش ذره
           </div>
           <div className="weekDate">
-            <h2>تاریخ هفته</h2>
-            مورخ 4 بهمن 1402 هجری خورشیدی
+            <h2>تاریخ هفته</h2>4 بهمن 1402 هجری خورشیدی
           </div>
           <div className="weekCaption">
             <h2>توضیحات</h2>

@@ -1,42 +1,34 @@
-.thebox {
-  margin-top: 2.5rem;
+/* Add these styles at the end of your existing CSS */
+
+.header {
+  /* Ensure that the header takes the full width */
+  width: 100%;
 }
 
-.weekTitle {
+.thebox {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inforweek {
+  text-align: center;
+}
+
+.weekTitle,
+.weekDate,
+.weekCaption {
+  margin-top: 2rem;
   background-color: #d3d3d3;
   color: black;
   border-radius: 12px;
   padding: 5px;
-  width: 400px;
+  width: 370px;
 }
 
-.weekTitle > h2 {
-  margin-top: 0;
-}
-
-.weekDate {
-  margin-top: 2rem;
-  background-color: #ada7a7;
-  color: black;
-  border-radius: 12px;
-  padding: 5px;
-  width: 400px;
-}
-
-.weekDate > h2 {
-  margin-top: 0;
-}
-
-.weekCaption {
-  margin-top: 2rem;
-  background-color: #8d8989;
-  color: black;
-  border-radius: 12px;
-  padding: 5px;
-  width: 400px;
-  margin-bottom: 2rem;
-}
-
+.weekTitle > h2,
+.weekDate > h2,
 .weekCaption h2 {
   margin-top: 0;
 }
@@ -44,7 +36,7 @@
 textarea {
   border: 0;
   outline: 0;
-  width: 395px;
+  width: 100%;
   border-radius: 12px;
   font-family: inherit;
   color: azure;
@@ -52,5 +44,6 @@ textarea {
 
 .photography {
   border-radius: 2px 3px 5px 8px;
-  width: 400px;
+  width: 100%;
+  margin-top: 1rem;
 }
