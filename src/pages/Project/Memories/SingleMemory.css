@@ -1,0 +1,56 @@
+.thebox {
+  margin-top: 2.5rem;
+}
+
+.weekTitle {
+  background-color: #d3d3d3;
+  color: black;
+  border-radius: 12px;
+  padding: 5px;
+  width: 400px;
+}
+
+.weekTitle > h2 {
+  margin-top: 0;
+}
+
+.weekDate {
+  margin-top: 2rem;
+  background-color: #ada7a7;
+  color: black;
+  border-radius: 12px;
+  padding: 5px;
+  width: 400px;
+}
+
+.weekDate > h2 {
+  margin-top: 0;
+}
+
+.weekCaption {
+  margin-top: 2rem;
+  background-color: #8d8989;
+  color: black;
+  border-radius: 12px;
+  padding: 5px;
+  width: 400px;
+  margin-bottom: 2rem;
+}
+
+.weekCaption h2 {
+  margin-top: 0;
+}
+
+textarea {
+  border: 0;
+  outline: 0;
+  width: 395px;
+  border-radius: 12px;
+  font-family: inherit;
+  color: azure;
+}
+
+.photography {
+  border-radius: 2px 3px 5px 8px;
+  width: 400px;
+}

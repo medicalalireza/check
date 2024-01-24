@@ -1,0 +1,33 @@
+body {
+  padding: 15px;
+}
+.title {
+  color: #d4e3e3;
+}
+.weeklyTop {
+  background-image: url("../../../images/Week1/victim-signing-the-box.jpg");
+  /* background-position: 33%; */
+  background-position-x: 98%;
+  background-position-y: 30%;
+  background-color: #899494;
+  border-radius: 12px;
+  padding: 8px;
+  cursor: pointer;
+  width: 400px;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+.weeklyTop:hover {
+  background-color: #d4e3e3;
+}
+.weekly {
+  background-color: #899494;
+  border-radius: 12px;
+  padding: 8px;
+  cursor: pointer;
+  width: 400px;
+  margin-bottom: 1rem;
+}
+.weekly:hover {
+  background-color: #d4e3e3;
+}

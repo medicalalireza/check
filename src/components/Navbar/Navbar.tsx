@@ -23,7 +23,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="list-item">
-            <Link to="/check/memory">
+            <Link to="/check/||/memory">
               <BiSolidMemoryCard />
               خاطرات
             </Link>
