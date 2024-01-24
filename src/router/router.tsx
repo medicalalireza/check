@@ -6,6 +6,7 @@ import SinglePod from "../pages/Project/SinglePod";
 import Podcast from "../pages/Project/Podcast";
 import Memory from "../pages/Project/Memories/Memory";
 import SingleMemory from "../pages/Project/Memories/SingleMemory";
+import AccessDenied from "../pages/AccessDenied";
 const router = createBrowserRouter([
   { path: "/check/", element: <Home /> },
   { path: "/check/project/preparation/", element: <AreYouReady /> },
@@ -14,6 +15,7 @@ const router = createBrowserRouter([
   { path: "/check/project/podcast/week/:id", element: <SinglePod /> },
   { path: "/check/project/memory/", element: <Memory /> },
   { path: "/check/project/memory/week/:id", element: <SingleMemory /> },
+  { path: "/check/services", element: <AccessDenied /> },
 ]);
 
 export default router;
