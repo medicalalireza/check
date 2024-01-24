@@ -5,12 +5,8 @@ import CameraMan1 from "../../../images/Week1/Camera-man-1.jpg";
 import CameraMan2 from "../../../images//Week1/camera-man-2.jpg";
 import Agent from "../../../images/Week1/stood-man-waiting-for-the-victim.jpg";
 import Victim from "../../../images/Week1/victim-signing-the-box.jpg";
-import secondAnnouncement from "../2.mp3";
 
 const SingleMemory = () => {
-  function play() {
-    new Audio(secondAnnouncement).play();
-  }
   const weekCaption =
     "مامور صبحگاه به قصد تحویل مرسوله راهی مقصد می شود، در انتظار او جناب آقای علیرضا قربانی است. مرسوله امضا شد و بسته با موفقیت تحویل داده شد.";
   return (
@@ -44,9 +40,6 @@ const SingleMemory = () => {
           <img src={Victim} className="photography" />
         </div>
       </div>
-      <button className="voice" onClick={() => play()}>
-        پخش معاقبه
-      </button>
     </div>
   );
 };
