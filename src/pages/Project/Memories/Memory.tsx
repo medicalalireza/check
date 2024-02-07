@@ -16,6 +16,13 @@ const Memory = () => {
             </div>
           </Link>
         </div>
+        <div className="boxes">
+        <Link to="exam">
+          <div className="weeklyTop">
+            <h2 className="exam">آزمون اول</h2>
+          </div>
+        </Link>
+      </div>;
       </div>
     </div>
   );
