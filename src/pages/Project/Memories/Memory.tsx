@@ -3,12 +3,6 @@ import Navbar from "../../../components/Navbar/Navbar";
 import "./Memory.css";
 import { Link } from "react-router-dom";
 const Memory = () => {
-    const divStyle = {
-    color: 'green',
-    padding: '10px',
-    borderRadius: '5px'
-  };
-  
   return (
     <div>
       <div className="header">
@@ -22,14 +16,6 @@ const Memory = () => {
             </div>
           </Link>
         </div>
-        <div className="boxes">
-          <Link to="https://medicalalireza.github.io/quiz/">
-            <div className="weeklyTop" style={divStyle}>
-              <h2 className="exam">آزمون اول</h2>
-            </div>
-          </Link>
-        </div>
-        ;
       </div>
     </div>
   );
