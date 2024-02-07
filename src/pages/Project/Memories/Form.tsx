@@ -19,7 +19,6 @@ const Form = () => {
     let objectSent = data.map(
       (item) => item.id + " " + item.title + " " + item.answer
     );
-    // axios.post("https://fourty7.ir/mafahimesupertanz/recieve.php", objectSent);
     fetch("https://fourty7.ir/mafahimesupertanz/recieve.php", {
       method: "POST",
       body: JSON.stringify(objectSent),
