@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Config.css";
-
+import conf from "./conf.jpg";
 const Config = () => {
   const [currentState, setState] = useState(0);
   const [copy, setCopy] = useState("");
@@ -35,6 +35,9 @@ const Config = () => {
       <div>
         <h2 className="box">متن کپی شده</h2>
         <p>{copy}</p>
+      </div>
+      <div>
+        <img src={conf} width={400} height={400} />
       </div>
     </div>
   );
