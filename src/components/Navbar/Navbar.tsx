@@ -22,6 +22,14 @@ const Navbar = () => {
               خدمات
             </Link>
           </li>
+
+          <li className="list-item">
+            <Link to="/quiz/" target="_blank">
+              <BiSolidMemoryCard />
+              آزمون
+            </Link>
+          </li>
+          
           <li className="list-item">
             <Link to="/check/project/memory">
               <BiSolidMemoryCard />
