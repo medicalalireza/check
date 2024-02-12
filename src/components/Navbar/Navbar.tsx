@@ -29,7 +29,7 @@ const Navbar = () => {
               آزمون
             </Link>
           </li>
-          
+
           <li className="list-item">
             <Link to="/check/project/memory">
               <BiSolidMemoryCard />
@@ -39,7 +39,8 @@ const Navbar = () => {
           <li className="list-item">
             <Link to="/check/project/preparation/">
               <GiDeathcab />
-              برای مردن آماده ای؟
+              {/* برای مردن آماده ای؟ */}
+              دو میدانی
             </Link>
           </li>
         </ul>
