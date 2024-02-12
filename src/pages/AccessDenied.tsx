@@ -5,7 +5,7 @@ const AccessDenied = () => {
   return (
     <div>
       <h2>تا اصلاع ثانوی ورود شما ممنوع می باشد</h2>
-      <Link to="/check/">بازگشت به بازی</Link>
+      <Link to="/check/gift/config/">بازگشت به بازی</Link>
     </div>
   );
 };
