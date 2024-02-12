@@ -9,7 +9,7 @@ const AccessDenied = () => {
           Anydesk نصب نرم افزار
         </Link>
       </div>
-      <Link to="/check/gift/config/">بازگشت به بازی</Link>
+      <Link to="/check/">بازگشت به بازی</Link>
     </div>
   );
 };

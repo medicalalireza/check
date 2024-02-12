@@ -1,13 +1,12 @@
 import { useState } from "react";
 import "./Config.css";
-import conf from "./conf.jpg";
 const Config = () => {
   const [currentState, setState] = useState(0);
   const [copy, setCopy] = useState("");
   const data = [
     {
       id: 1,
-      body: `vless://558e7fe9-3f07-43b6-90a8-eff5d68c1d2a@tun-germany-10.hennessypro-supra.site:8093?type=tcp&path=%2F&host=upload.com&headerType=http#علیرضا-6721695`,
+      body: ``,
     },
   ];
 
@@ -35,9 +34,6 @@ const Config = () => {
       <div>
         <h2 className="box">متن کپی شده</h2>
         <p>{copy}</p>
-      </div>
-      <div>
-        <img src={conf} width={400} height={400} />
       </div>
     </div>
   );

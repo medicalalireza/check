@@ -39,8 +39,7 @@ const Navbar = () => {
           <li className="list-item">
             <Link to="/check/project/preparation/">
               <GiDeathcab />
-              {/* برای مردن آماده ای؟ */}
-              دو میدانی
+              برای مردن آماده ای؟
             </Link>
           </li>
         </ul>
