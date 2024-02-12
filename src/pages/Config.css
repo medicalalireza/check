@@ -1,0 +1,46 @@
+.container {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f1e6f8;
+  margin: 1rem;
+  height: 90vh;
+  border-radius: 12px;
+}
+
+.btn {
+  background-color: aliceblue;
+  color: black;
+  border: 0;
+  outline: 0;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.btn.selected {
+  background-color: #79591ccc;
+  color: white;
+}
+
+.box {
+  background-color: #79591ccc;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.copy-text {
+  font-size: 1.2rem;
+}
+.btn:hover {
+  color: white;
+  background-color: #79591ccc;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px 0 rgba(121, 89, 28, 0.5); /* اضافه کردن سایه به دکمه */
+}
