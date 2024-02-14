@@ -8,6 +8,7 @@ import Memory from "../pages/Project/Memories/Memory";
 import SingleMemory from "../pages/Project/Memories/SingleMemory";
 import AccessDenied from "../pages/AccessDenied";
 import Config from "../pages/Config";
+import Average from "../pages/Average";
 const router = createBrowserRouter([
   { path: "/check/", element: <Home /> },
   { path: "/check/project/preparation/", element: <AreYouReady /> },
@@ -18,6 +19,7 @@ const router = createBrowserRouter([
   { path: "/check/project/memory/week/:id", element: <SingleMemory /> },
   { path: "/check/services", element: <AccessDenied /> },
   { path: "/check/gift/config", element: <Config /> },
+  { path: "/check/project/average/", element: <Average /> },
 ]);
 
 export default router;

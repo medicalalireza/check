@@ -1,0 +1,31 @@
+body {
+  padding: 22px !important;
+}
+.table-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.data-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header,
+.data {
+  flex: 1;
+  border: 3px solid lightgray;
+  padding: 12px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .header,
+  .data {
+    padding: 8px;
+  }
+}
+
+.wrong {
+  background-color: brown;
+}

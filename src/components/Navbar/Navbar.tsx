@@ -19,7 +19,7 @@ const Navbar = () => {
           <li className="list-item">
             <Link to="/check/services">
               <GrServices />
-              خدمات
+              کارنامه
             </Link>
           </li>
 
