@@ -1,6 +1,5 @@
-import React from "react";
 import "./Average.css";
-import { Link } from "react-router-dom";
+import Avg from "../images/avg.jpeg";
 const Average = () => {
   return (
     <div>
@@ -47,7 +46,12 @@ const Average = () => {
         </div>
         <div className="data-row">
           <div className="header "> الفبای موسیقی </div>
-          <div className="data wrong"> 3 </div>
+          <div className="data wrong mb -3"> 3 </div>
+        </div>
+        <div className="mb-3">
+          <h2>تحلیل پیشرفته آزمون</h2>
+
+          <img src={Avg} width="200px" height="200px" />
         </div>
       </div>
 
