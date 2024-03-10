@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Config.css";
+import Pic from "IMG_20240310_205339.jpg";
 const Config = () => {
   const [currentState, setState] = useState(0);
   const [copy, setCopy] = useState("");
@@ -21,6 +22,7 @@ const Config = () => {
 
   return (
     <div className="container">
+      <img src={Pic} width="300px" height="300px" />
       {data.map((item) => (
         <button
           key={item.id}
