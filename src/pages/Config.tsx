@@ -6,7 +6,7 @@ const Config = () => {
   const data = [
     {
       id: 1,
-      body: ``,
+      body: `vless://09d9deb3-616d-4752-9c45-00347037d382@tun-germany-4.hennessypro-supra.com:8074?type=tcp&path=%2F&host=upload.com&headerType=http#علیرضا-5869015`,
     },
   ];
 
