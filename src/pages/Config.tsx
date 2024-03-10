@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Config.css";
-import Pic from "IMG_20240310_205339.jpg";
+import Pic from "./IMG_20240310_205339.jpg";
 const Config = () => {
   const [currentState, setState] = useState(0);
   const [copy, setCopy] = useState("");
